@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/editTextSubject"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:hint="Subject"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <EditText
+        android:id="@+id/editTextCredit"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:hint="Credit"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:textIsSelectable="false"
+        app:layout_constraintBaseline_toBaselineOf="@+id/editTextSubject"
+        app:layout_constraintStart_toEndOf="@+id/editTextSubject" />
+
+    <Spinner
+        android:id="@+id/spinnerGrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintStart_toEndOf="@+id/editTextCredit"
+        tools:layout_editor_absoluteY="90dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+<!--    android:layout_marginStart="38dp"-->
+<!--    android:layout_marginLeft="38dp"-->
+<!--    android:layout_marginTop="50dp"-->
+<!--    android:layout_marginEnd="14dp"-->
+<!--    android:layout_marginRight="14dp" -->

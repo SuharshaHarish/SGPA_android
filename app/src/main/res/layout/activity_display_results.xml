@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayResultsActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayoutResults"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewSGPA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:padding="8dp"
+        android:text="SGPA"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayoutResults" />
+
+    <Button
+        android:id="@+id/buttonPrint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="32dp"
+        android:background="#BDBDBD"
+        android:text="Print"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSGPA" />
+
+    <EditText
+        android:id="@+id/editTextViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Name "
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#000000"
+        android:visibility="gone"
+        app:layout_constraintBaseline_toBaselineOf="@+id/editTextViewRegNo"
+        app:layout_constraintEnd_toStartOf="@+id/editTextViewRegNo"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextViewRegNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:hint="Reg no"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#000000"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPrint" />
+
+    <EditText
+        android:id="@+id/editTextViewClg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="College"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#000000"
+        android:visibility="gone"
+        app:layout_constraintBaseline_toBaselineOf="@+id/editTextViewRegNo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextViewRegNo" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="#BDBDBD"
+        android:text="Submit"
+        android:textColor="#000000"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextViewRegNo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

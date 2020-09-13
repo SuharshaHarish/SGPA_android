@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item type="id" name="editTextSubject0" />
+    <item type="id" name="editTextSubject1" />
+    <item type="id" name="editTextSubject2" />
+    <item type="id" name="editTextSubject3" />
+    <item type="id" name="editTextSubject4" />
+    <item type="id" name="editTextSubject5" />
+    <item type="id" name="editTextSubject6" />
+    <item type="id" name="editTextSubject7" />
+    <item type="id" name="editTextSubject8" />
+    <item type="id" name="editTextSubject9" />
+
+    <item type="id" name="editTextCredit0" />
+    <item type="id" name="editTextCredit1" />
+    <item type="id" name="editTextCredit2" />
+    <item type="id" name="editTextCredit3" />
+    <item type="id" name="editTextCredit4" />
+    <item type="id" name="editTextCredit5" />
+    <item type="id" name="editTextCredit6" />
+    <item type="id" name="editTextCredit7" />
+    <item type="id" name="editTextCredit8" />
+    <item type="id" name="editTextCredit9" />
+
+    <item type="id" name="spinnerGrade0" />
+    <item type="id" name="spinnerGrade1" />
+    <item type="id" name="spinnerGrade2" />
+    <item type="id" name="spinnerGrade3" />
+    <item type="id" name="spinnerGrade4" />
+    <item type="id" name="spinnerGrade5" />
+    <item type="id" name="spinnerGrade6" />
+    <item type="id" name="spinnerGrade7" />
+    <item type="id" name="spinnerGrade8" />
+    <item type="id" name="spinnerGrade9" />
+
+</resources>
